@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="clip_horizontal"
+    tools:context="com.example.atelierjava.Streaming">
+
+    <Button
+        android:id="@+id/view_video"
+        android:layout_width="188dp"
+        android:layout_height="67dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#E1B5CA"
+        android:text="Start the video"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="103dp" />
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="205dp" />
+
+</LinearLayout>
